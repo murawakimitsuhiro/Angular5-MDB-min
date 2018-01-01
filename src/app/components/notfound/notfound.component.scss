@@ -1,0 +1,18 @@
+@import "../../../assets/styles/import";
+
+.notfound {
+  text-align: center;
+}
+
+.notfound__code {
+  font-size: 15em;
+  color: map_get($colors, primary);
+}
+
+.notfound__message {
+  font-size: 2em;
+}
+
+.notfound__back-button {
+  margin: 10px;
+}
