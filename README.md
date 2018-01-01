@@ -1,4 +1,15 @@
-# Angular4DockerMin
+# Angular Bootstrap with Material Design
+
+Angularのプロジェクトをscss対応で作り、docker(nginx)で起動できるようにした最小構成に、
+AngularBootStrapWithMaterialDesign(https://mdbootstrap.com/)をインポートして使えるようにしたもの。
+
+## Docker起動手順
+
+`docker build -t angular5-bmd .`
+
+`docker run  -d -p 8080:80 angular5-bmd`
+
+これで立ち上がります。 -> http://localhost:8080/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.5.
 
